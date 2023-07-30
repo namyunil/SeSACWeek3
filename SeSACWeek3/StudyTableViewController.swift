@@ -24,7 +24,7 @@ class StudyTableViewController: UITableViewController {
         
         
     }
-    //    //아래 함수의 기본값은 1로 설정되어있다.
+    //아래 함수의 기본값은 1로 설정되어있다.
     override func numberOfSections(in tableView: UITableView) -> Int {
         return 2
     }
@@ -34,8 +34,15 @@ class StudyTableViewController: UITableViewController {
         //조건문을 활용하거나 삼항연산자를 이용해도 된다..!
         
         return section == 0 ? "첫번째 섹션" : "두번째 섹션"
-        
-        //        return "섹션의 타이틀이다."
+//        if section == 0 {
+//            return "첫번째 섹션"
+//        } else if section == 1 {
+//            return "두번째 섹션"
+//        } else if section == 2 {
+//            return "세번째 섹션"
+//        }
+//
+//        //        return "섹션의 타이틀이다."
     }
     
     //1. 셀 갯수 (필수)

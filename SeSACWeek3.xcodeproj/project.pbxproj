@@ -18,7 +18,20 @@
 		9F9A49F72A72496A00F2673B /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9A49F62A72496A00F2673B /* Extension.swift */; };
 		9F9A49F92A724FB800F2673B /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F9A49F82A724FB800F2673B /* Setting.storyboard */; };
 		9F9A49FD2A72566700F2673B /* DynamicTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9A49FC2A72566700F2673B /* DynamicTableViewController.swift */; };
+		9FA7AAD92A76947A00F17A0B /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA7AAD82A76947A00F17A0B /* Music.swift */; };
+		9FA7AADB2A769B6700F17A0B /* MusicInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA7AADA2A769B6700F17A0B /* MusicInformation.swift */; };
+		9FA7AADD2A769D2100F17A0B /* Movie.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FA7AADC2A769D2100F17A0B /* Movie.storyboard */; };
+		9FA7AADF2A769DDC00F17A0B /* MovieTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA7AADE2A769DDB00F17A0B /* MovieTableViewController.swift */; };
+		9FA7AAE12A76A1A000F17A0B /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA7AAE02A76A1A000F17A0B /* MovieTableViewCell.swift */; };
+		9FA7AAE32A76A2BD00F17A0B /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA7AAE22A76A2BC00F17A0B /* Movie.swift */; };
+		9FA7AAE52A76A38000F17A0B /* MovieInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA7AAE42A76A38000F17A0B /* MovieInfo.swift */; };
 		9FA879372A7336A900128C83 /* ShoppingListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA879362A7336A900128C83 /* ShoppingListTableViewController.swift */; };
+		9FA879392A73504100128C83 /* CutomTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA879382A73504100128C83 /* CutomTableViewController.swift */; };
+		9FA8793B2A73527500128C83 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA8793A2A73527500128C83 /* CustomTableViewCell.swift */; };
+		9FA8793D2A7389CE00128C83 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA8793C2A7389CD00128C83 /* Todo.swift */; };
+		9FA8793F2A738A1500128C83 /* ToDoInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA8793E2A738A1500128C83 /* ToDoInformation.swift */; };
+		9FE9E8D42A7685E40005A012 /* PracticeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE9E8D32A7685E40005A012 /* PracticeTableViewController.swift */; };
+		9FE9E8D62A768CCF0005A012 /* PracticeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE9E8D52A768CCF0005A012 /* PracticeTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,7 +48,20 @@
 		9F9A49F62A72496A00F2673B /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		9F9A49F82A724FB800F2673B /* Setting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Setting.storyboard; sourceTree = "<group>"; };
 		9F9A49FC2A72566700F2673B /* DynamicTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicTableViewController.swift; sourceTree = "<group>"; };
+		9FA7AAD82A76947A00F17A0B /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
+		9FA7AADA2A769B6700F17A0B /* MusicInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicInformation.swift; sourceTree = "<group>"; };
+		9FA7AADC2A769D2100F17A0B /* Movie.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Movie.storyboard; sourceTree = "<group>"; };
+		9FA7AADE2A769DDB00F17A0B /* MovieTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewController.swift; sourceTree = "<group>"; };
+		9FA7AAE02A76A1A000F17A0B /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		9FA7AAE22A76A2BC00F17A0B /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		9FA7AAE42A76A38000F17A0B /* MovieInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieInfo.swift; sourceTree = "<group>"; };
 		9FA879362A7336A900128C83 /* ShoppingListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListTableViewController.swift; sourceTree = "<group>"; };
+		9FA879382A73504100128C83 /* CutomTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CutomTableViewController.swift; sourceTree = "<group>"; };
+		9FA8793A2A73527500128C83 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		9FA8793C2A7389CD00128C83 /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		9FA8793E2A738A1500128C83 /* ToDoInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoInformation.swift; sourceTree = "<group>"; };
+		9FE9E8D32A7685E40005A012 /* PracticeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeTableViewController.swift; sourceTree = "<group>"; };
+		9FE9E8D52A768CCF0005A012 /* PracticeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +102,21 @@
 				9F9A49F42A7232F600F2673B /* StudyTableViewController.swift */,
 				9F0CD9DE2A720FF60007F50E /* TodoTableViewController.swift */,
 				9F9A49F82A724FB800F2673B /* Setting.storyboard */,
+				9FE9E8D32A7685E40005A012 /* PracticeTableViewController.swift */,
+				9FA8793A2A73527500128C83 /* CustomTableViewCell.swift */,
+				9FA879382A73504100128C83 /* CutomTableViewController.swift */,
+				9FE9E8D52A768CCF0005A012 /* PracticeTableViewCell.swift */,
+				9FA8793E2A738A1500128C83 /* ToDoInformation.swift */,
+				9FA8793C2A7389CD00128C83 /* Todo.swift */,
+				9FA7AAD82A76947A00F17A0B /* Music.swift */,
+				9FA7AADA2A769B6700F17A0B /* MusicInformation.swift */,
 				9FA879362A7336A900128C83 /* ShoppingListTableViewController.swift */,
 				9F9A49FC2A72566700F2673B /* DynamicTableViewController.swift */,
+				9FA7AADC2A769D2100F17A0B /* Movie.storyboard */,
+				9FA7AADE2A769DDB00F17A0B /* MovieTableViewController.swift */,
+				9FA7AAE02A76A1A000F17A0B /* MovieTableViewCell.swift */,
+				9FA7AAE22A76A2BC00F17A0B /* Movie.swift */,
+				9FA7AAE42A76A38000F17A0B /* MovieInfo.swift */,
 				9F0CD9D32A71FFF40007F50E /* Assets.xcassets */,
 				9F0CD9D52A71FFF40007F50E /* LaunchScreen.storyboard */,
 				9F0CD9D82A71FFF40007F50E /* Info.plist */,
@@ -143,6 +182,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FA7AADD2A769D2100F17A0B /* Movie.storyboard in Resources */,
 				9F0CD9D72A71FFF40007F50E /* LaunchScreen.storyboard in Resources */,
 				9F0CD9D42A71FFF40007F50E /* Assets.xcassets in Resources */,
 				9F0CD9D22A71FFF10007F50E /* Main.storyboard in Resources */,
@@ -157,13 +197,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FA7AAE32A76A2BD00F17A0B /* Movie.swift in Sources */,
+				9FE9E8D62A768CCF0005A012 /* PracticeTableViewCell.swift in Sources */,
+				9FA8793D2A7389CE00128C83 /* Todo.swift in Sources */,
+				9FA7AAE12A76A1A000F17A0B /* MovieTableViewCell.swift in Sources */,
+				9FA7AAD92A76947A00F17A0B /* Music.swift in Sources */,
+				9FE9E8D42A7685E40005A012 /* PracticeTableViewController.swift in Sources */,
+				9FA7AAE52A76A38000F17A0B /* MovieInfo.swift in Sources */,
 				9F0CD9CF2A71FFF10007F50E /* ViewController.swift in Sources */,
+				9FA7AADF2A769DDC00F17A0B /* MovieTableViewController.swift in Sources */,
 				9F0CD9DF2A720FF60007F50E /* TodoTableViewController.swift in Sources */,
 				9F9A49F52A7232F600F2673B /* StudyTableViewController.swift in Sources */,
+				9FA8793F2A738A1500128C83 /* ToDoInformation.swift in Sources */,
+				9FA7AADB2A769B6700F17A0B /* MusicInformation.swift in Sources */,
 				9FA879372A7336A900128C83 /* ShoppingListTableViewController.swift in Sources */,
 				9F9A49F72A72496A00F2673B /* Extension.swift in Sources */,
 				9F9A49FD2A72566700F2673B /* DynamicTableViewController.swift in Sources */,
+				9FA8793B2A73527500128C83 /* CustomTableViewCell.swift in Sources */,
 				9F0CD9CB2A71FFF10007F50E /* AppDelegate.swift in Sources */,
+				9FA879392A73504100128C83 /* CutomTableViewController.swift in Sources */,
 				9F0CD9CD2A71FFF10007F50E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

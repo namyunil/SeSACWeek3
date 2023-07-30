@@ -21,16 +21,19 @@ class ShoppingListTableViewController: UITableViewController {
         super.viewDidLoad()
         
         designTextField()
-        
+        desginAddButton()
         
     }
     
     //텍스트 레이블 보더 안보이게 구현해보자..!
     func designTextField() {
         shoppingListTextField.placeholder = "무엇을 구매하실 건가요?"
-        shoppingListTextField.layer.borderColor = UIColor.systemGray5.cgColor
         shoppingListTextField.backgroundColor = .systemGray5
-        
+        shoppingListTextField.borderStyle = .none
+    }
+    
+    func desginAddButton() {
+        addButton.layer.cornerRadius = 10
     }
     
     func noWordAlert() {
@@ -59,9 +62,10 @@ class ShoppingListTableViewController: UITableViewController {
     }
 
     
-    override func numberOfSections(in tableView: UITableView) -> Int {
-        return 1
-    }
+//    override func numberOfSections(in tableView: UITableView) -> Int {
+//        return 1
+//    }
+    
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
